@@ -4,6 +4,8 @@ class Solution {
         HashSet<String> set=new HashSet<>();
         for(String word:words){
             String s="";
+
+            
             for(char c:word.toCharArray())
                 s+=morse[c-'a'];
             set.add(s);
