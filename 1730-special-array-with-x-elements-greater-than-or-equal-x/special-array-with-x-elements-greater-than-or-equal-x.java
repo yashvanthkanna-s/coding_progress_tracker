@@ -8,7 +8,7 @@ class Solution{
     {
                 if(n>=x)
                 {
-                    count++;
+                    count+=1;
                 }
             }
 
