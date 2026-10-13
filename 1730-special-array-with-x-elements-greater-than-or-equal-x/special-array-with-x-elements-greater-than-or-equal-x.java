@@ -1,4 +1,3 @@
-
 class Solution{
     public int specialArray(int[] nums){
         for(int x=0;x<=nums.length;x++){
